@@ -1,0 +1,18 @@
+# remap stupid movement bindings
+unmap h
+unmap j
+unmap k
+unmap l
+
+map [normal] ; scroll right
+map [normal] l scroll up
+map [normal] k scroll down
+map [normal] j scroll left
+
+map [fullscreen] ; scroll right
+map [fullscreen] l scroll up
+map [fullscreen] k scroll down
+map [fullscreen] j scroll left
+
+# copy to clipborad instead of primary
+set selection-clipboard clipboard
